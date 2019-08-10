@@ -1,4 +1,4 @@
-# Goranking
+# Ranking
 It move, search duplicate, sort pictures/movies into a structure year/month directories
 
 ## Dependencies
@@ -19,5 +19,14 @@ done
 ## Compile
 
 ```
+git clone https://github.com/Chipsterjulien/ranking.git
+cd ranking
 go build
+```
+## Examples
+
+```
+./ranking build -r -s
+./ranking build -h
+./ranking moveOnly -i "my pictures" -o Photos
 ```
